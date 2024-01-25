@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-const Counter = () =>{
+const Counter = (props) =>{
     const [count,setCount] = useState(0);
     const onIncrease = () =>{
         setCount(count+1);
