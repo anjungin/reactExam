@@ -7,9 +7,29 @@
   background-color: cornsilk;
 }
 
-h2 {
-  color: #61dafb;
+.DiaryList{
   text-align: center;
+  background-color: aliceblue;
+}
+
+.DiaryList .coverWrap {
+  text-align: center;
+}
+
+.DiaryList .cover {
+  border: solid 2px lightblue;
+  width: 400px;
+  height: 130px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px auto;
+  background-color: #ffffff;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  margin: 0;
 }
 
 input, textarea, select, button, span{
