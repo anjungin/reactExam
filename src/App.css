@@ -55,9 +55,8 @@ button{
   background-color: aliceblue;
   border: silver solid 1px;
   border-radius: 5px;
-  margin-bottom: 10px;
   cursor:pointer;
-  margin-bottom:10px;
+  margin-bottom:5px;
 }
 
 #bold_text{
