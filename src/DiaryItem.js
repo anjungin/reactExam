@@ -1,6 +1,8 @@
-import React,{ useEffect,useState,useRef } from "react";
-const DiaryItem = ({onEdit,onRemove, author, content, created_date, emotion, id})=>{
+import React, {useEffect, useState, useRef, useContext} from "react";
+import {DiaryStateDispatchContext} from "./App";
+const DiaryItem = ({author, content, created_date, emotion, id})=>{
 
+    const {onRemove, onEdit} = useContext(DiaryStateDispatchContext);
     const [isEdit,setIsEdit] = useState(false);
     const toggleIsEdit = () => setIsEdit(!isEdit);
     const [localContent, setLocalContent] = useState(content);
@@ -11,10 +13,6 @@ const DiaryItem = ({onEdit,onRemove, author, content, created_date, emotion, id}
             onRemove(id);
         }
     }
-
-    useEffect.(()=>{
-        console.log(`${id}번째 아이템 렌더!`);
-    });
 
     const localQuitEdit = () => {
         setIsEdit(false);
