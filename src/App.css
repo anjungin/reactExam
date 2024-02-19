@@ -2,7 +2,7 @@
 
 body {
   background-color: #f6f6f6;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   font-family: "Yeon Sung";
@@ -33,6 +33,7 @@ body {
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
+  margin: 10px;
   font-size: 18px;
   white-space: nowrap;
   font-family: "Yeon Sung";
