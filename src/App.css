@@ -37,3 +37,53 @@ body {
   white-space: nowrap;
   font-family: "Yeon Sung";
 }
+
+.MyButton_default {
+  background-color: #f6f6f6;
+  color: black;
+}
+
+.MyButton_negative {
+  background-color: red;
+  color:white;
+}
+
+.MyButton_positive {
+  background-color: green;
+  color: #f6f6f6;
+}
+
+/* HEADER */
+
+header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+header > div {
+  display: flex;
+}
+
+header .head_text{
+  width: 50%;
+  font-size: 25px;
+  justify-content: center;
+}
+
+header .head_btn_left {
+  width: 25%;
+  justify-content: start;
+}
+
+header .head_btn_right {
+  width: 25%;
+  justify-content: end;
+}
+
+header button {
+  font-family: "Yeon Sung", system-ui;
+}
